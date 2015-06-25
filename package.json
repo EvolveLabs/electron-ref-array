@@ -1,15 +1,15 @@
 {
-  "name": "ref-array",
-  "description": "Create C \"array\" instances on top of Buffers",
+  "name": "electron-ref-array",
+  "description": "This is a fork of the ref-array project, adding electron binary support",
   "keywords": [
     "array",
     "ref"
   ],
   "version": "1.1.1",
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "author": "Justin Chase <justin@evolvelabs.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref-array.git"
+    "url": "git://github.com/evolvelabs/electron-ref-array.git"
   },
   "main": "./lib/array.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "array-index": "~0.1.0",
     "debug": "2",
-    "ref": "1"
+    "electron-ref": "1.0.5"
   },
   "devDependencies": {
     "bindings": "~1.2.0",

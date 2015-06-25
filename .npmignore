@@ -1,0 +1,5 @@
+*.tgz
+*.yml
+.npmignore
+
+/test
