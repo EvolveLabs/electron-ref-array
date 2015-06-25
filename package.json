@@ -5,7 +5,7 @@
     "array",
     "ref"
   ],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Justin Chase <justin@evolvelabs.com>",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "dependencies": {
     "array-index": "~0.1.0",
     "debug": "2",
-    "electron-ref": "1.0.5"
+    "electron-ref": "1.0.6"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
