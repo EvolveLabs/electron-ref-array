@@ -13,7 +13,7 @@
   },
   "main": "./lib/array.js",
   "scripts": {
-    "test": "pushd test && bash ../node_modules/.bin/elb configure && popd && mocha -gc --reporter spec"
+    "test": "cd test && bash ../node_modules/.bin/elb configure && cd .. && mocha -gc --reporter spec"
   },
   "engines": {
     "node": ">=2.2.1"
