@@ -13,7 +13,10 @@
   },
   "main": "./lib/array.js",
   "scripts": {
-    "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
+    "test": "cd test && bash ./node_modules/.bin/elb && mocha -gc --reporter spec"
+  },
+  "engines": {
+    "node": ">=2.2.1"
   },
   "dependencies": {
     "debug": "2",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "bindings": "~1.2.0",
     "mocha": "*",
-    "nan": "~1.7.0"
+    "nan": "~1.8.4",
+    "electron-updater-tools": "~0.1.x"
   }
 }
