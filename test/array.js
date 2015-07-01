@@ -1,6 +1,6 @@
 
 var assert = require('assert')
-  , ref = require('ref')
+  , ref = require('electron-ref')
   , ArrayType = require('../')
   , bindings = require('bindings')({ module_root: __dirname, bindings: 'native_tests' })
 

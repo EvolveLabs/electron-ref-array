@@ -24,8 +24,8 @@ Examples
 #### Basic usage
 
 ``` js
-var ref = require('ref')
-var ArrayType = require('ref-array')
+var ref = require('electron-ref')
+var ArrayType = require('electron-ref-array')
 
 // typedef
 var int = ref.types.int
