@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "2.2.1"
+
+install:
+  # npm dependencies
+  - npm install node-gyp -g
+  - npm install electron-prebuilt -g
+  - npm install
