@@ -33,8 +33,5 @@ install:
   - npm install electron-prebuilt -g
   - npm install
 
-test_script:
-  - npm test
-
 script:
-  # don't actually build
+  - npm test
