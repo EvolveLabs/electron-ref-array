@@ -35,3 +35,6 @@ install:
 
 test_script:
   - npm test
+
+script:
+  # don't actually build
