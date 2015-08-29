@@ -7,6 +7,7 @@
     "electron"
   ],
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "license": "MIT",
   "version": "1.2.0",
   "contributors": [
     "Justin Chase <justin@evolvelabs.com>"
