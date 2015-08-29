@@ -3,30 +3,36 @@
   "description": "This is a fork of the ref-array project, adding electron binary support",
   "keywords": [
     "array",
-    "ref"
+    "ref",
+    "electron"
   ],
-  "version": "1.1.4",
-  "author": "Justin Chase <justin@evolvelabs.com>",
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "version": "1.2.0",
+  "contributors": [
+    "Justin Chase <justin@evolvelabs.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/evolvelabs/electron-ref-array.git"
   },
   "main": "./lib/array.js",
   "scripts": {
-    "test": "cd test && bash ../node_modules/.bin/elb configure && cd .. && mocha -gc --reporter spec"
+    "test": "cd test && bash ../node_modules/.bin/elb configure --target 0.31.0 && cd .. && mocha -gc --reporter spec"
   },
   "engines": {
-    "node": ">=2.2.1"
+    "node": ">=3.2.0",
+    "electron": "~0.31.0"
   },
   "dependencies": {
+    "array-index": "~0.1.1",
     "debug": "2",
     "array-index": "~0.1.0",
-    "electron-ref": "~1.0.10"
+    "electron-ref": "~1.1.0"
   },
   "devDependencies": {
-    "bindings": "~1.2.0",
+    "bindings": "*",
     "mocha": "*",
-    "nan": "~1.8.4",
-    "electron-updater-tools": "~0.1.x"
+    "electron-updater-tools": "~0.2.0",
+    "nan": "~2.0.0"
   }
 }
